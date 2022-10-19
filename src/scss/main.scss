@@ -52,21 +52,21 @@
     flex-wrap: wrap;
     justify-content: space-around;
     .card{
-        width: 500px;
+        width: 480px;
         margin-bottom: 60px;
-        padding: 25px 20px 70px;
+        padding: 25px 20px 30px;
         // margin-right: 80px;
         // margin-left: 20px;
         box-shadow: 4px 6px 6px rgba(22, 105, 28, 0.4);
         h3{
-            font-size: 2em;
+            font-size: 1.5em;
             font-style: italic;
         }
         text-decoration: none;
         backdrop-filter: blur(10px);
 
         @media (max-width: 1190px) {
-            width: 480px;
+            width: 460px;
         }
 
         @media (max-width: 770px) {
@@ -81,7 +81,7 @@
 
         &-image{
             width: 100%;
-            margin-bottom: 25px;
+            margin-bottom: 10px;
 
     }
         &-title{
