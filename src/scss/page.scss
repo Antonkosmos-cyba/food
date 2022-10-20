@@ -44,22 +44,26 @@ footer {
   // translate(0%, 100%);
 
 }
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
 }
   .scale {    
     transition: 1s;
   }
   .scale:hover {
-    transform: scale(1.7) 
-    translate(60%, 10%);
+    transform: scale(1.5) 
+    translate(0%, 0%);
     
     @media(max-width: 1025px) {
       transform: scale(1.3) 
-      translate(60%, 10%)
+      translate(0%, 0%)
     }
 
     @media(max-width: 770px) {
       transform: scale(1.3) 
-      translate(0%, 60%)
+      translate(0%, 0%)
     }
 
     @media(max-width: 430px) {
