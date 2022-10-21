@@ -1,21 +1,29 @@
 .date {
     height: 50px;
+    width: 300px;
     font-size: 1em;
+    padding-top: 10px;
     font-style: italic;
     padding-left: 20px;
-
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
     @media (max-width: 1025px) {
         padding-left: 10px;
     }
 }
 .div-o-mame {
+    height: 220px;
     padding: 10px;
     font-size: 1.2em;
     font-style: italic;
-    backdrop-filter: blur(20px);
     text-indent: 20px;
     margin-bottom: 60px;
-
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    @media (max-width: 426px) {
+        height: auto;
+    }
     .foto {
         float: left;
         max-width: 300px;
@@ -58,12 +66,14 @@
         // margin-right: 80px;
         // margin-left: 20px;
         box-shadow: 4px 6px 6px rgba(22, 105, 28, 0.4);
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
         h3{
             font-size: 1.5em;
             font-style: italic;
         }
         text-decoration: none;
-        backdrop-filter: blur(10px);
+        // backdrop-filter: blur(10px);
 
         @media (max-width: 1190px) {
             width: 460px;
