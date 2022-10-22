@@ -12,17 +12,25 @@
 <body>
     <div class="wrapper">
         @@include('parts/header.html')
-        <div class="date">
-            <script language="javascript" type="text/javascript" src="./index.js"></script>
+        <div class="d-flex about ">
+            <div class="date">
+                <script language="javascript" type="text/javascript" src="./index.js"></script>
+            </div>
+            <div class="content">
+                <div class=" div-o-mame">
+                    <main>
+                        <h3>Про продавца</h3>
+                        <p>
+                            Представляем продукты питания. Свежиие овощи, фрукты, орехи, ягоды. Широкий ассортимент.
+                        </p>
+                    </main>
+                </div>
+            </div>
+            <div class="futt">
+                @@include('parts/footer.html')
+            </div>
         </div>
-        <main class="content">
-
-            <h3>Про продавца</h3>
-        </main>
-
-        @@include('parts/footer.html')
     </div>
-    <script src="./index.js"></script>
 </body>
 
 </html>
