@@ -99,3 +99,4 @@ function serve() {
 exports.build = series(clear, images, font, js, scss, html)
 exports.serve = series(clear, images, font, js, scss, html, serve)
 exports.clear = clear
+exports.buildSoft = series(scss, html)
